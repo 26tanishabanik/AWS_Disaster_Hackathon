@@ -73,3 +73,13 @@ if option == 'Home':
                 image = ImageOps.grayscale(image)
             except:
                 st.error("Error: Invalid image")
+      img_array = upload_image_ui()
+
+if option == 'About Project':
+  html_temp = """
+        <div style="background-color:blue;padding:10px">
+        <h2 style="color:white;text-align:center;">Project Description</h2>
+        </div>
+        """
+  st.markdown(html_temp,unsafe_allow_html=True)
+  st.markdown('Project")
