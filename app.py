@@ -11,7 +11,7 @@ if option == 'Home':
       
       col1,col2,col3 = st.columns([50,100,1])
     
-      # col2.image('chapter-logo.jpg')
+      
       st.markdown(
           """
           <style>
@@ -47,7 +47,7 @@ if option == 'Home':
       st.markdown(
           f"""
           <div class="container1">
-               <img class="logo-img1" src="data:image/jpg;base64,{base64.b64encode(open('chapter-logo.jpg', "rb").read()).decode()}">
+               <img class="logo-img1" src="data:image/jpg;base64,{base64.b64encode(open('urban-heat-island.jpg', "rb").read()).decode()}">
           </div>
           """,
           unsafe_allow_html=True
@@ -56,7 +56,7 @@ if option == 'Home':
       st.text("")
       st.text("")
       html_temp = """
-        <div style="background-color:tomato;padding:10px">
+        <div style="background-color:blue;padding:10px">
         <h2 style="color:white;text-align:center;">Urban Heat Island</h2>
         </div>
         """
