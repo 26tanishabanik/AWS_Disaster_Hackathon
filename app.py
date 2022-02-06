@@ -82,4 +82,4 @@ if option == 'About Project':
         </div>
         """
   st.markdown(html_temp,unsafe_allow_html=True)
-  st.markdown('Project")
+  st.markdown('Project')
