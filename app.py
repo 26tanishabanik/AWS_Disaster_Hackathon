@@ -74,8 +74,7 @@ if option == 'Home':
             except:
                 st.error("Error: Invalid image")
       def predict(img):
-        pass
-        # loaded_model = tf.keras.models.load_model("./model/{}.h5".format(model_type))
+        loaded_model = tf.keras.models.load_model("channel1_150_epochs.h5")
       img_array = upload_image_ui()
       predict(img_array)
 
